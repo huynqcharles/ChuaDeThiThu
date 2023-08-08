@@ -1,0 +1,13 @@
+﻿@page "/uploadfile"
+@inherits UploadFileBase
+
+<h3>Upload File</h3>
+
+<InputFile OnChange="HandleFileChange" accept=".txt, .png, .xls" />
+
+<button @onclick="UploadFile">Upload</button>
+
+@if (!string.IsNullOrEmpty(uploadMessage))
+{
+    <p>Upload result: @uploadMessage</p>
+}

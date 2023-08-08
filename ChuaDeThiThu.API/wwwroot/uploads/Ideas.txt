@@ -1,0 +1,9 @@
+Dự án giống như một mạng xã hội, tuy nhiên không đề cao tính tương tác giữa những con người mà đề cao tính cá nhân. Một hệ thống mà mục tiêu là mỗi khi người dùng sử dụng máy tính thì phải truy cập vào hệ thống đó, có thể coi như một quản gia cá nhân. 
+Những chức năng có thể có trong hệ thống:
+- Quản lý các tài khoản, mật khẩu...
+- Quản lý, lên kế hoạch, nhắc nhở thông qua sms/email
+- Quản lý chi tiêu
+- Lưu trữ nhưng nội dung xem sau: người ta thường hay lưu những trang web/ bài báo/ video... để xem sau nhưng thường là không mở ra bao giờ. Chức năng này là để quản lý và tránh người dùng bỏ quên nó thì sẽ gợi ý mở lên mỗi khi người dùng sử dụng trình duyệt.
+- Quản lý các ghi chú, các bài viết, các ý tưởng...
+- Có thể tweet để chia sẻ giống như bài đăng: thả tim, bình luận, có thể chia sẻ ví dụ hôm nay đạt 100% mục tiêu đề ra, cập nhật 1 chi tiêu mới...
+- Tích hợp chatbot để hỏi đáp khi cần (tích hợp chatGPT)

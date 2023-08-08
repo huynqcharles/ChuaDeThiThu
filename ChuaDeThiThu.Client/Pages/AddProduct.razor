@@ -1,0 +1,24 @@
+﻿@page "/add"
+@inherits AddProductBase
+
+<h3>AddProduct</h3>
+
+<EditForm Model="product" OnValidSubmit="HandleSubmitForm">
+    <DataAnnotationsValidator />
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <InputText class="form-control" @bind-Value="product.Name" />
+        <ValidationMessage For="() => product.Name" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Price</label>
+        <InputNumber class="form-control" @bind-Value="product.Price" />
+        <ValidationMessage For="() => product.Price" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Quantity</label>
+        <InputNumber class="form-control" @bind-Value="product.Qty" />
+        <ValidationMessage For="() => product.Qty" />
+    </div>
+    <button class="btn btn-primary" type="submit">Submit</button>
+</EditForm>
